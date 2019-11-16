@@ -5,11 +5,20 @@
 </template>
 
 <script>
-  export default {
-    name: 'comet'
-  }
+export default {
+  name: "comet"
+};
 </script>
 
 <style>
-  /* CSS */
+/* CSS */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#app {
+  height: 100%;
+}
 </style>
